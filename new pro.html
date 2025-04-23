@@ -1,0 +1,191 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acres & Acres</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('download.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: white;
+      position: relative;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background: rgba(0, 0, 0, 0.6);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .logo-container {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-left: auto;
+      margin-right: 1rem;
+    }
+
+    .logo-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 6rem 2rem 2rem;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .search-container {
+      margin-top: 2rem;
+    }
+
+    .search-container input {
+      padding: 0.7rem;
+      width: 300px;
+      max-width: 80%;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+    }
+
+    .search-container button {
+      padding: 0.7rem 1.2rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      margin-left: 0.5rem;
+      cursor: pointer;
+      background-color: #00cc88;
+      color: white;
+    }
+
+    .content {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 2rem;
+      margin: 2rem;
+      border-radius: 10px;
+    }
+
+    .content h3 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .content p, .content ul {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .property-section {
+      background: rgba(0, 0, 0, 0.6);
+      margin: 2rem;
+      padding: 2rem;
+      border-radius: 10px;
+    }
+
+    .property-section h2 {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .property-section img {
+      display: block;
+      margin: 0 auto;
+      width: 1080px;
+      height: 994px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: rgba(0, 0, 0, 0.6);
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+  <script>
+    function handleSearch() {
+      const query = document.getElementById('searchInput').value.trim();
+      if (query) {
+        window.location.href = `search.html?area=${encodeURIComponent(query)}`;
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Acres & Acres</h1>
+    <a href="index.html" class="logo-container">
+      <img src="acres--acres-high-resolution-logo.png" alt="Logo">
+    </a>
+  </header>
+
+  <div class="hero">
+    <h2>Search by Areas and Parts</h2>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Enter area name...">
+      <button onclick="handleSearch()">Search</button>
+    </div>
+  </div>
+  <body>
+    <a href="def1.html">property for sale</a>
+</body>
+  <div class="content">
+    <h3>🏡 Welcome to the Acres & Acres Family!</h3>
+    <p>Hello and welcome!</p>
+    <p>We're thrilled to have you here at Acres & Acres, your new go-to destination for finding the perfect property, whether you’re searching for your dream home, a profitable investment, or a piece of land to call your own.</p>
+    <p>By becoming a member, you're not just signing up for a property listing site — you're joining a growing community of homeowners, investors, and dreamers who believe in making smart, confident real estate decisions.</p>
+       <p>Please contact!! us if you purchasing any property or if you have any questions.</p>
+    <h4>Here’s what you get as a member:</h4>
+    <ul>
+      <li>✅ Early Access to new listings before they go public</li>
+      <li>✅ Exclusive Member-Only Properties you won’t find anywhere else</li>
+      <li>✅ Smart Tools to help you compare, shortlist, and track your favorite listings</li>
+      <li>✅ Expert Insights & Tips from real estate professionals</li>
+      <li>✅ Personalized Alerts so you never miss out on the perfect property</li>
+    </ul>
+
+    <h4>Our mission is simple:</h4>
+    <p>To make your property journey smooth, transparent, and rewarding. Whether you’re buying your first home or your fifth investment property, we’re here to support you every step of the way.</p>
+
+    <p>So take a look around, explore, and start building your future — one acre at a time.</p>
+    <p><strong>Welcome to Acres & Acres. Let’s find your place.</strong></p>
+  </div>
+
+<a href="mailto:acressalesproperties@gmail.com">contact us@:acressalesproperties@gmail.com</a>
+  <div class="property-section">
+    <h2>Property for Sale</h2>
+    <img src="IMG_6127.JPG" alt="Property for Sale">
+  </div>
+
+  <footer>
+    &copy; 2025 Acres & Acres. All rights reserved.
+  </footer>
+</body>
+</html>
